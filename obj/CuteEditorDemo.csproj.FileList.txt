@@ -1,0 +1,6 @@
+bin\CuteEditorDemo.dll
+bin\CuteEditorDemo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CuteEditorDemo.dll
+obj\Debug\CuteEditorDemo.pdb
+obj\Debug\CuteEditorDemo.dll.licenses

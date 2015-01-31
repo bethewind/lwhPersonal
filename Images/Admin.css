@@ -1,0 +1,80 @@
+body {
+	
+}
+.navPoint{
+	font-family: Webdings;
+	font-size:9pt;
+	color:white;
+	cursor:hand;
+}
+A:link {
+	COLOR: #000000;
+	TEXT-DECORATION: none;
+	font-size: 12px;
+}
+A:visited { COLOR: #000000; TEXT-DECORATION: none}
+A:hover { COLOR: #000000; TEXT-DECORATION: underline }
+.Input{
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	FONT-SIZE: 9pt;
+	PADDING-BOTTOM: 1px;
+	PADDING-TOP: 1px;
+	height: 18px;
+	background-color: #FFFFFF;
+	border: 1px outset #cccccc;
+}
+.TextArea {border-width: 1; border-color: #000000; background-color: #ffffff; font-family: ËÎÌו; font-size: 9pt; }
+.Select {border-width: 1; border-color: #000000; background-color: #ffffff; font-family: ËÎÌו; font-size: 9pt; }
+.Title { COLOR: #000000; FONT-SIZE: 16px; font-weight:bold;}
+.Content { COLOR: #000000; FONT-SIZE: 14px;line-height:130%; }
+.BigBox {border:1px solid #808080;width:100%;}
+tr {
+	font-size: 12px;
+	color: #000000;
+}
+.login {
+	font-size: 12px;
+	height: 20px;
+	width: 90px;
+	border: 1px groove #CCCCCC;
+	background-image: url(../Image/top_bg.jpg);
+
+}
+th {
+	font-size: 12px;
+	font-weight: bold;
+}
+p {
+	font-size: 12px;
+	color: #000000;
+}
+.Mini {
+	font-size: 12px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #00659c;
+	border: none;
+	height: 20px;
+	width: 50px;
+}
+.Botton {
+	font-size: 12px;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+}
+input {
+	font-size: 12px;
+	border: 1px groove #CCCCCC;
+	height: 18px;
+	width: 71px;
+	margin-left: 0px;
+}textarea {
+	border: 1px groove #CCCCCC;
+}
+select {
+	border: 1px groove #CCCCCC;
+}

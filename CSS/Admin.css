@@ -1,0 +1,123 @@
+﻿#form1 #m #top {
+	height: 41px;
+	margin-left: 4px;
+	border: 2px solid #99CCFF;
+	line-height: 10px;
+	font-style: italic;
+	vertical-align: middle;
+	text-align: left;
+
+}
+#pager a
+{
+	text-decoration: none;
+}
+#form1 #m #left {
+	width: 177px;
+	float: left;
+	margin-top: 4px;
+	margin-right: 0px;
+	margin-left: 2px;
+	background-color: #99CCFF;
+	font-size: 12px;
+}
+#form1 #m #middle {
+	width: 730px;
+	overflow: hidden;
+	float: left;
+	background-image: none;
+	background-repeat: repeat;
+	background-color: #FFFFFF;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-bottom: auto;
+	margin-left: 4px;
+	font-size: 12px;
+}
+#form1 #m #middle #imgLeft {
+	width: 40px;
+	height: 40px;
+}
+body {
+	background-color: #006699;
+}
+
+ .dl1 {
+	margin: 0px;
+}
+#form1 #m #left #di {
+	height: 140px;
+}
+#form1 #m {
+	width: 1160px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border: 4px inset #FFFFFF;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+
+ .dl1 .dd {
+	color: #000000;
+	width: 152px;
+	margin-left: 5px;
+	margin-top: 4px;
+	font-size: 14px;
+	margin-right: 5px;
+	border: 0px none #FFFFFF;
+	height: 21px;
+	line-height: 0px;
+}
+#form1 #m #left .di1 {
+	width: 160px;
+	height: 507px;
+}
+#if 
+{width: 730px;
+	height: 600px;
+	}
+body {
+	background-color: #FFFFFF;
+	font-family: "宋体";
+	font-size: 12px;
+}
+#form1 #m #left #left1 .di1 .dl1 .dd .img {
+	margin-bottom: 0px;
+}
+#form1 #m #expandimg {
+	float: left;
+	width: 5px;
+	margin-top: 100px;
+}
+#td1 {
+	text-align: center;
+	height: 16px;
+	width: auto;
+	font-size: 24px;
+	color: #0000FF;
+}
+#form1 #stept {
+	margin-top: 0px;
+}
+#form1 #parkdiv {
+	float: left;
+	height: 10px;
+	overflow: hidden;
+}
+#form1 #stept {
+	height: 25px;
+	width: 212px;
+}
+#form1 #m #top img {
+	float: left;
+	height: 49px;
+	width: 128px;
+}
+#form1 #m #top #worddiv {
+	float: left;
+	height: 64px;
+	width: 600px;
+	margin: 0px;
+}

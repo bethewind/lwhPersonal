@@ -1,0 +1,105 @@
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>后台管理页面</title>
+     <script type="text/javascript" src="../JS/XmlHttp.js"> </script>
+    <script type="text/javascript" src ="../JS/comment.js"></script>
+        <link href =   "../CSS/Admin.css" rel = "stylesheet" type ="text/css" /> 
+    <style type="text/css">
+        #s
+        {
+            width: 306px;
+        }
+        #UserName
+        {
+            width: 105px;
+        }
+        #UserPass
+        {
+            width: 105px;
+        }
+        #num
+        {
+            width: 55px;
+        }
+       
+    </style>
+</head>
+<body style="margin: 0px;padding:0px; background-color: #99CCFF; background-image: url(../Images/%E8%83%8C%E6%99%AF.jpg);width: 100%;height:100%;">
+<form id="form1" runat="server" 
+    style="margin: 0px auto 0px auto; height: auto;width: 1024px; ">
+<div id = 'm' style="margin: 0px auto 0px auto; border: 0px none #FFFFFF; width: 1024px; height:auto;background-color: #99CCFF;">
+    <div id = 'top'
+        
+        style="margin-top: 0px; margin-left: 0px; overflow: hidden; height: 28px; font-size:28px; color: #999900; width: 1024px; background-color: #99CCFF; margin-bottom: 0px;">
+   <img src="../Images/hbg.gif" style="width: 50px; height: 30px; margin-top: 0px;" />欢迎管理员进入后台</div>
+<div id = 'left' 
+        
+        style="border: 0px none #FFFFFF; background-color: #99CCFF; font-size: 14px; height: 720px; float:left; width: 160px; margin-top: 0px; margin-left: 0px; margin-right: 0px; overflow: hidden;">
+       
+        <div id = 'login'
+            style="border-left: 2px solid #99CCFF; border-right: 2px solid #99CCFF; border-top: 2px solid #99CCFF; border-bottom: 0px none #FFFFFF; height: 196px;  width: 160px;">
+          <div id = 'pic'> <img src="../Images/ht1.gif" style="width: 160px" />  
+            </div>
+          <table style="border-top: 0px none #FFFFFF; width: 160px; height: 156px; border-left-color: #FFFFFF; border-left-width: 0px; border-right-color: #FFFFFF; border-right-width: 0px; border-bottom-color: #FFFFFF; border-bottom-width: 0px; margin-left: 0px;">
+            <tr>
+              <td>帐号
+                <input id="UserName" type="text" 
+               height="20" /></td>
+            </tr>
+            <tr>
+              <td  >密码
+                <input id="UserPass" type="password" height="20" /></td>
+            </tr>
+            <tr>
+              <td  >验证<input id="num" type="text" height="20" />
+                  <img src="images.aspx" alt = '看不清，换一张'onclick="this.src='images.aspx?'+new Date();" id="checkcode" name="checkcode"  /></td>
+            </tr>
+            <tr>
+              <td><img src="../Images/gif-0083.gif" onclick = "javascript:login(document.getElementById('UserName').value,document.getElementById('UserPass').value,document.getElementById('num').value);"  />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+            </tr>
+          </table>
+      </div>
+      <div id = 'l1' style="border-left: 2px solid #99CCFF; border-right: 2px solid #99CCFF; border-top: 0px none #FFFFFF; border-bottom: 2px solid #99CCFF; margin-bottom: 3px; margin-left: 0px; height: 20px;  width: 160px;"></div>
+<div id = 'left1' 
+                style="border: 2px solid #99CCFF; margin-left: 0px; height: 720px; width: 160px;"  >
+    <div class ="di1" style="background-color: #99CCFF" ><dl class= 'dl1'>
+    <dt style="height: 31px">
+        <img src="../Images/title.gif" 
+            style="height: 34px; width: 160px" /></dt>
+<dd class="dd">
+          <img class = 'img' alt="" src="../Images/dot.gif" /><a href = "javascript:dd('2');">管理首页</a>&nbsp;|&nbsp;<a href = "../Default.htm" target = '_blank'>网站首页</a></dd>
+              <dd class="dd">
+          <img class = 'img' alt="" src="../Images/dot.gif" /><a href = "javascript:dd1('8');">管理员</a> &nbsp;&nbsp;|&nbsp;<a href = "javascript:dd('78');">系统设置</a></dd>
+               <dd class="dd">
+                        <img class = 'img' alt="" src="../Images/dot.gif" /><a href = "javascript:addOpenWin();" >添加信息</a>&nbsp;|&nbsp;<a href = "javascript:dd(11,12,13);">实是新闻</a></dd>
+              <dd class="dd">
+                        <img class = 'img' alt="" src="../Images/dot.gif" /><a href = "javascript:dd(51,52,53);">学科知识</a>&nbsp;|&nbsp;<a href = "javascript:dd('54',55,56);">学生作业</a></dd>
+                <dd class="dd">
+                        <img class = 'img' alt="" src="../Images/dot.gif" /><a href = "javascript:dd('22',23,24);">教师园地</a>&nbsp;|&nbsp;<a href = "javascript:dd('42',43,44);">科研地带</a></dd><dd class="dd">
+                        <img class = 'img' alt="" src="../Images/dot.gif" /><a href = "javascript:dd1('31');">课程管理</a>&nbsp;|&nbsp;<a href = "javascript:dd('48',49,50);">资源中心</a></dd><dd class="dd">
+                        <img class = 'img' alt="" src="../Images/dot.gif" /><a href = "javascript:dd('69',70,71);">会员管理</a>&nbsp;|&nbsp;<a href = "javascript:dd('74',75,76);">论坛管理</a></dd><dd class="dd">
+                        <img class = 'img' alt="" src="../Images/dot.gif" /><a href = "javascript:editLogin();">退出登录</a>&nbsp;|&nbsp;<a href = "javascript:dd1('1');">班级管理</a></dd></dl>
+      </div>
+       
+        </div>
+    </div>
+    <div id = 'middle'style="margin: 0px 0px 0px 0px; border: 0px none #FFFFFF; float: left; width: 858px; height: 720px; background-image: url('../Images/背景.jpg'); overflow: scroll;" >
+     <div id = 'List0' style ="float: left;" ></div>
+       <div id = 'List' style ="float: left;"><input type='text'style ="display :none" id='title'/></div>
+       <div id = 'List1' style ="float: left;"></div>
+     <div id = 'List3' style ="height:0px;float: left;" ></div>
+     
+    </div><div id = 'bottom' style="height: 20px; width: 1024px; float:left;font-size: 18px; color: #C0C0C0; background-image: url('../Images/logins_01.jpg'); ">版权所有：长江大学计算机科学学院</div>
+</div> 
+</form>
+<script type ="text/javascript" >
+   dd1('2');
+  
+</script>
+</body>
+</html>
